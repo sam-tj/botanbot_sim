@@ -374,8 +374,8 @@
             <infrared1CameraInfoTopicName>camera/infra1/camera_info</infrared1CameraInfoTopicName>
             <infrared2TopicName>camera/infra2/image_raw</infrared2TopicName>
             <infrared2CameraInfoTopicName>camera/infra2/camera_info</infrared2CameraInfoTopicName>
-            <colorOpticalframeName>camera_color_optical_frame</colorOpticalframeName>
-            <depthOpticalframeName>camera_depth_optical_frame</depthOpticalframeName>
+            <colorOpticalframeName>camera_color_optical_frame_main</colorOpticalframeName>
+            <depthOpticalframeName>camera_depth_optical_frame_main</depthOpticalframeName>
             <infrared1OpticalframeName>camera_left_ir_optical_frame</infrared1OpticalframeName>
             <infrared2OpticalframeName>camera_right_ir_optical_frame</infrared2OpticalframeName>
             <rangeMinDepth>0.1</rangeMinDepth>

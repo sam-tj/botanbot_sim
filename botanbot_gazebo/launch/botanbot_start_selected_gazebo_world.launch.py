@@ -61,5 +61,21 @@ def generate_launch_description():
 
         IncludeLaunchDescription(PythonLaunchDescriptionSource(
             os.path.join(get_package_share_directory('twist_mux'), 'launch', 'twist_mux_launch.py')),
+        ),
+
+        Node(        
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        name='static_transform_publisher',        
+        output='screen',
+        arguments=['0', '0', '1.15', '-1.57', '0', '-1.57', 'camera_color_optical_frame', 'camera_color_optical_frame_main']
+        ),
+    
+        Node(        
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        name='static_transform_publisher_1',        
+        output='screen',
+        arguments=['0', '0', '1.15', '-1.57', '0', '-1.57', 'camera_depth_optical_frame', 'camera_depth_optical_frame_main']
         )
     ])
