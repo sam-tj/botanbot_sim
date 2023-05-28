@@ -236,7 +236,7 @@ namespace gazebo
 
     pcl::io::savePCDFileBinary(msg.filename, pcl_cloud);
 
-    std::cout << "\pointcloud generation completed                  " << std::endl;
+    std::cout << "pointcloud generation completed                  " << std::endl;
   }
 
 // Register this plugin with the simulator
